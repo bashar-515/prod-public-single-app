@@ -1,5 +1,5 @@
 {
-    "module_id": "apps-mod:bashar-prod",
+    "module_id": "bashar-prod:apps-mod",
     "visibility": "public",
     "description": "A public, single-machine Viam app out in production",
     "build": {
