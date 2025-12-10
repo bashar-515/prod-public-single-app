@@ -1,0 +1,22 @@
+{
+    "module_id": "erh:viam-chartplotter",
+    "visibility": "public",
+    "description": "A public, single-machine Viam app out in production",
+    "build": {
+        "build": "make module",
+        "setup": "make setup-linux",
+        "arch": [
+            "linux/amd64",
+            "linux/arm64"
+        ],
+        "path" : "module.tar.gz"
+    },
+    "applications": [
+        {
+            "name": "app",
+            "type": "single_machine",
+            "entrypoint": "dist/index.html"
+            }
+        }
+    ]
+}
