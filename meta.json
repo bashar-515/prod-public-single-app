@@ -16,7 +16,6 @@
             "name": "app",
             "type": "single_machine",
             "entrypoint": "dist/index.html"
-            }
         }
     ]
 }
