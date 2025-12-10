@@ -1,6 +1,7 @@
 {
     "module_id": "bashar-prod:apps-mod",
     "visibility": "public",
+    "url": "https://github.com/bashar-515/prod-public-single-app",
     "description": "A public, single-machine Viam app out in production",
     "build": {
         "build": "make module",
